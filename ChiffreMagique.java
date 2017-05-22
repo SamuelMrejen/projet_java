@@ -1,4 +1,4 @@
-package projet_smcl;
+package projet;
 import java.util.Scanner;
 public class ChiffreMagique {
 
