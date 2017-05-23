@@ -25,16 +25,16 @@ public class motmagik {
             motenlettre[i] = listdemot[random].charAt(i);
             
         }
-        System.out.println("Voici le mot a trouvez vous avez 10 erreur possible avant de mourir. \nVeuillez suggerer un mot, S'il est correct vous avez gagner.\n\n"+motenlettre[0] + " _ _ " + motenlettre[3]);
+        System.out.println("Voici le mot a trouver. Vous avez 10 erreurs possibles avant de perdre. \nVeuillez suggerer un mot, S'il est correct vous avez gagné.\n\n"+motenlettre[0] + " _ _ " + motenlettre[3]);
         System.out.println(mot);
         for(int e = 1; e < 11; e++){
             System.out.println("Votre suggestion ?");
             String x = sc.nextLine();
             if(mot.equals(x)){
-                System.out.println("Vous avez gagner, vous etes fort.");
+                System.out.println("Vous avez gagné, vous etes fort.");
                 e = 10;
             }else{
-                System.out.println("Vous avez perdu, vous etes nul.\n Vous en etes à " + e + " essaie\n\n");
+                System.out.println("Vous avez perdu, vous etes nul.\n Vous en etes à " + e + " essais\n\n");
             }
         }
     

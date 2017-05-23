@@ -16,22 +16,20 @@ public class NombreMagiqueIllimite {
 			
 			if (nombre<random)
 			{
-				System.out.println("c'est plus");
+				System.out.println("C'est plus");
 
 			}
 			if (nombre>random)
 			{
-				System.out.println("c'est moin");
+				System.out.println("C'est moins");
 
 			}
 			if (nombre==random)
 			{
-				System.out.println("Bravo vous avez gagné");
+				System.out.println("Bravo vous avez gagné en " + compteur + " coups.");
 			}
 		compteur++;
-			
 		}
-		System.out.println(compteur);
 		
 	}
 

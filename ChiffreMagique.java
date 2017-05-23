@@ -13,21 +13,19 @@ public class ChiffreMagique {
 	 int nombre=sc.nextInt();
 	 if (nombre<random)
 	 {
-		 System.out.println("c'est plus");
+		 System.out.println("C'est plus");
 	 }
 	 if (nombre>random)
 	 {
-		 System.out.println("c'est moin");
+		 System.out.println("C'est moins");
 	 }
 	 if(nombre==random)
 	 {
-		 System.out.println("Bravo vous avez trouver le nombre magique");
+		 System.out.println("Bravo vous avez gagné.");
 		 break;
-		 
 	 }
  }
-
-	
+	System.out.println("Vous avez épuisé tous vos coups. Perdu.");
 	
 	}
 
