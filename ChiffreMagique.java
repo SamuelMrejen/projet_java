@@ -9,7 +9,7 @@ public class ChiffreMagique {
 	int random = (int)(Math.random() * (higher-lower)) + lower;
  for(int i=0; i<10;i++)
  {
-	 System.out.println("Veuillez rentrer le nombre magique");
+	 System.out.println("Veuillez rentrer le nombre magique.\nIl est compris entre " + lower + " et " + higher );
 	 int nombre=sc.nextInt();
 	 if (nombre<random)
 	 {

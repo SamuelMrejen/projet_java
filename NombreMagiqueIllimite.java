@@ -11,7 +11,7 @@ public class NombreMagiqueIllimite {
 		int nombre=0;
 		while(nombre!=random)
 		{
-			System.out.println("Veuillez rentrer le nombre magique");
+			System.out.println("Veuillez rentrer le nombre magique.\nIl est compris entre " + lower + " et " + higher");
 			 nombre = sc.nextInt();
 			
 			if (nombre<random)
