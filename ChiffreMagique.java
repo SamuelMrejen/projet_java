@@ -7,9 +7,10 @@ public class ChiffreMagique {
 	int lower =0;
 	int higher=1000;
 	int random = (int)(Math.random() * (higher-lower)) + lower;
- for(int i=0; i<10;i++)
+        System.out.println("Le nombre magique est compris entre " + lower + " et " + higher );
+ for(int i=0; i<100;i++)
  {
-	 System.out.println("Veuillez rentrer le nombre magique.\nIl est compris entre " + lower + " et " + higher );
+	 System.out.println("Entrez un nombre.");
 	 int nombre=sc.nextInt();
 	 if (nombre<random)
 	 {
@@ -21,12 +22,13 @@ public class ChiffreMagique {
 	 }
 	 if(nombre==random)
 	 {
-		 System.out.println("Bravo vous avez gagné.");
+		 System.out.println("Bravo vous avez gagné en " + i + " coups.");
 		 break;
 	 }
- }
-	System.out.println("Vous avez épuisé tous vos coups. Perdu.");
-	
-	}
-
+         if (i>10) {    //Si le joueur dépasse 10 coups
+             	System.out.println("Vous avez épuisé tous vos coups. Perdu.");
+                break;
+         }
+    }
+}
 }
