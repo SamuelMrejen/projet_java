@@ -1,8 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+* To change this license header, choose License Headers in Project Properties.
+* To change this template file, choose Tools | Templates
+* and open the template in the editor.
+*/
 package projet;
 import java.util.Scanner;
 /**
@@ -12,7 +12,6 @@ import java.util.Scanner;
 public class motmagik {
     public static void main(String[] args) {
         
-
         // TODO code application logic here
         Scanner sc = new Scanner(System.in);
         String listdemot[] = {"four","sirs","crin","ioda","voeu","seps","sala","faxa","cire","pane","créa","pipa","uvée","arcs","gros","émir","axez","rima","buée","aile","krak","peut","luxe","cava","fris","lois","pais","toit","vies","tuez","gère","taxé","dise","kart","laid","lacs","jasé","ragé","réée","bouc","vécu","rois","prix","bort","elle","agis","scié","joug","cula","mita","fret","joli","coda","naît","gréa","niez","visa","cita","fort","liés","riva","pies","suie","êtes","slow","levé","pile","oral","noya","olim","hâla","pair","liai","pifa","ales","repu","rasé","parc","dupe","pals","émie","jubé","luxa","tais","loba","tâte","rodé","sils","ailé","gara","holà","bloc","item","barn","bâté","elfe","ripé","ixia","grée","néné","froc","pive","gels","dore","crus","aère","duos","pain","base","hure","vamp","titi","voit","féal","soya","mois","pois","part","héla","dais","mils","raye","guru","vols","vagi","ôtés","scat","béni","thym","sels","moka","gaur","muas","jupe","bégu","cime","nuée","hâte","brie","rasa","veut","nova","nome","saxe","erré","sont","lacé","fiée","roba","eaux"};
@@ -37,6 +36,6 @@ public class motmagik {
                 System.out.println("Vous avez perdu, vous etes nul.\n Vous en etes à " + e + " essais\n\n");
             }
         }
-    
+        
     }
 }
